@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    width: 100%;
+}
+
+.header-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px;
+}
+
+.header-left{
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px dotted rgb(219, 184, 184);
+}
+
+.header-right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#nav-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 8px;
+}
+
+#nav-bar ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#nav-bar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#nav-bar li a:hover,
+#nav-bar li a.active{
+    color: #d3d318;
+}
+
+#header-img{
+    width: 100%;
+    height: 90%;
+}
+
+#header-img img{
+    width: 700px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.product1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.product1 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product1 div img{
+    width: 190px;
+    height: 200px;
+}
+
+#p1 div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    border: 1px thin white;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+}
+
+.product2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.product2 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product2 div img{
+    width: 190px;
+    height: 200px;
+}
+
+#p2 div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    border: 1px thin white;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+
+button{
+    background-color: purple;
+    text-align: center;
+    padding: 3px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+#nighties{
+    text-align: center;
+    font-style: bolder;
+    margin: 30px;
+}
+
+.product-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.product-3 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product-3 div img{
+    width: 190px;
+    height: 200px;
+}
+
+#p3 div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    border: 1px thin white;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+
+.product-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.product-4 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product-4 div img{
+    width: 190px;
+    height: 200px;
+}
+
+#p4 div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    border: 1px thin white;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+
+
+
