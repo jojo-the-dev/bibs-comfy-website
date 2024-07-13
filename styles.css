@@ -17,13 +17,44 @@ body{
     padding:10px 20px;
 }
 
-.header-left{
-    width: 40%;
-    height: fit-content;
+.header-left {
+    position: relative;
+    background-color: #4E0D0D; /* Dark maroon color */
+    height: 500px; /* Adjust the height as needed */
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    border: 5px dotted rgb(219, 184, 184);
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    width: 40%;
+    
+}
+
+.header-left img{
+    width: 100px;
+}
+
+#text-overlay {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 2;
+    margin-top: 20px;
+}
+
+#text-overlay h1 {
+    margin: 0;
+    font-size: 35px;
+    color: white; 
+    font-family: cursive;
+}
+
+#text-overlay h3 {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: white;
+    font-family: cursive;
 }
 
 .header-right{
@@ -75,21 +106,22 @@ body{
     margin-top: 30px;
 }
 
-.product1{
+.products{
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-between;
     padding: 5px;
 }
 
-.product1 div{
+.products div{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
 
-.product1 div img{
+.products div img{
     width: 190px;
     height: 200px;
 }
@@ -105,36 +137,6 @@ body{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
 }
 
-.product2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
-}
-
-.product2 div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.product2 div img{
-    width: 190px;
-    height: 200px;
-}
-
-#p2 div{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 5px;
-    border: 1px thin white;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
-    border-radius: 10px;
-}
-
 button{
     background-color: purple;
     text-align: center;
@@ -146,71 +148,68 @@ button a{
     color: white;
 }
 
-#nighties{
+footer {
+    background-color: #4E0D0D; /* Dark maroon color */
+    color: #F2C94C; /* Yellow color */
     text-align: center;
-    font-style: bolder;
-    margin: 30px;
+    padding: 50px 20px;
+    position: relative;
 }
 
-.product-3{
-    display: flex;
+.footer-container {
+    position: relative;
+    width: 100%;
+}
+
+.see-more {
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+
+.newsletter-signup {
+    background-color: black;
+    color: #F2C94C;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
-.product-3 div{
+.newsletter-signup span {
+    flex: 1;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: left;
 }
 
-.product-3 div img{
-    width: 190px;
-    height: 200px;
+.newsletter-signup button {
+    background: none;
+    border: none;
+    color: #F2C94C;
+    font-size: 24px;
+    cursor: pointer;
 }
 
-#p3 div{
+.social-media {
+    margin: 20px 0;
+    margin-top: 50px;
+}
+
+.social-media p {
+    margin: 5px 0;
+}
+
+#like{
+    position: relative;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 5px;
-    border: 1px thin white;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
-    border-radius: 10px;
+    justify-content: left;
+    padding-left: 450px;
 }
 
-.product-4{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
+.footer-logo img{
+    width: 50px;
+    height: 50px;
 }
-
-.product-4 div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.product-4 div img{
-    width: 190px;
-    height: 200px;
-}
-
-#p4 div{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 5px;
-    border: 1px thin white;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
-    border-radius: 10px;
-}
-
-
-
